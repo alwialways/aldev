@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Open+Sans&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family:'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    position:relative;
+}
+
+.navbar h3 {
+    margin: 15px;
+}
+
+.bd-menu {
+    padding: 10px;
+}
+
+.cover {
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: whitesmoke;
+    margin: 30px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 1 1 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-style: italic;
+}
+
+h6 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.items {
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color:skyblue;
+    border-radius: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.profile-cover {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    padding: 20px;
+}
+
+img {
+    border: solid 4px lightblue;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+}
+
+.profile-cover p {
+    font-size: 20px;
+}
+
+
+.title-cover {
+    height: 100px;
+    width: 150px;
+/*    border: solid 2px #eee;*/
+    padding: 13px;
+    flex: 1 1 auto;
+}
+
+.title-cover h3 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.title-cover h4 {
+    font-size: 10px;
+}
